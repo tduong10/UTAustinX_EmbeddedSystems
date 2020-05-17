@@ -212,7 +212,7 @@ void UART_ConvertDistance(unsigned long n){
 		String[0] = result;
 	}
 
-  if (n > 9999)
+	if (n > 9999)
 	{
 		int i;
 		for (i = 0; i < 5; i++)
